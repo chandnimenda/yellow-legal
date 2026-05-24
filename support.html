@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yellow — Support</title>
+  <style>
+    :root {
+      --bg: #F5F0EA;
+      --surface: #FFFFFF;
+      --text: #2A1F18;
+      --muted: #6B5C4E;
+      --accent: #B85A3A;
+      --border: #E5DBCF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 40px 0 12px;
+    }
+    .lede {
+      color: var(--muted);
+      font-size: 16px;
+      margin: 0;
+    }
+    p, li {
+      font-size: 16px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      padding: 20px 24px;
+      border-radius: 8px;
+      margin: 16px 0 24px;
+    }
+    .contact-card p { margin: 0; }
+    .contact-card a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-card a:hover { text-decoration: underline; }
+    a { color: var(--accent); }
+    .response-time {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Support</h1>
+      <p class="lede">We're here to help. Reach out anytime.</p>
+    </header>
+
+    <h2>Get in touch</h2>
+    <p>
+      For any question, bug report, feature request, or account issue,
+      please email us:
+    </p>
+    <div class="contact-card">
+      <p>
+        <a href="mailto:sg@c4e.in?subject=Yellow%20Support">sg@c4e.in</a>
+      </p>
+      <p class="response-time">
+        We typically reply within one business day.
+      </p>
+    </div>
+
+    <h2>Common questions</h2>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 6px;">
+      How do I delete my account?
+    </h3>
+    <p>
+      Open Yellow → tap <strong>Profile</strong> (bottom-right tab) →
+      scroll to the bottom → tap <strong>Delete account</strong>.
+      All your data is permanently removed from our servers.
+    </p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 6px;">
+      How do I turn off notifications?
+    </h3>
+    <p>
+      Profile → Notifications → toggle off the reminders you don't want.
+      Or turn off all notifications for Yellow from your iPhone's
+      Settings → Notifications → Yellow.
+    </p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 6px;">
+      How do I disconnect Apple Health?
+    </h3>
+    <p>
+      Open Apple's <strong>Health</strong> app → Profile → Apps and Services
+      → Yellow → Turn Off All. Yellow never stores HealthKit data on our
+      servers, so revoking access takes effect immediately.
+    </p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 6px;">
+      I can't sign in.
+    </h3>
+    <p>
+      Make sure you're using the same email address you signed up with.
+      If you signed up with Apple or Google, use that button (not the
+      email + password form). For password resets, tap
+      <em>Forgot password?</em> on the sign-in screen.
+    </p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 6px;">
+      I'd like to give feedback or request a feature.
+    </h3>
+    <p>
+      Email us at the address above. We read every message.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>
+      Our full <a href="./">privacy policy</a> explains what data we
+      collect, how it's used, and how you can delete it.
+    </p>
+
+    <footer>
+      Yellow — a quiet place to notice how you feel.
+    </footer>
+  </div>
+</body>
+</html>
