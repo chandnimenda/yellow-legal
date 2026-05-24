@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yellow — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #F5F0EA;
+      --surface: #FFFFFF;
+      --text: #2A1F18;
+      --muted: #6B5C4E;
+      --accent: #B85A3A;
+      --border: #E5DBCF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 40px 0 12px;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 24px 0 8px;
+      color: var(--text);
+    }
+    p, li {
+      font-size: 16px;
+      color: var(--text);
+    }
+    .effective {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 16px 0;
+    }
+    .callout p { margin: 0; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="effective">Effective: 24 May 2026</p>
+    </header>
+
+    <p>
+      Yellow is a private journal for noticing how you feel — moods, body
+      signals, and the context around them. This policy describes what data
+      we collect, how we use it, and what we never do with it.
+    </p>
+
+    <h2>1. Information we collect</h2>
+
+    <h3>Account information</h3>
+    <p>
+      When you create an account, our authentication provider, Clerk, collects
+      your email address and (optionally) your name and the password you
+      choose, or an identifier from Sign in with Apple or Sign in with Google
+      if you use those. This information is used solely to sign you in and
+      keep your account secure.
+    </p>
+
+    <h3>Check-in content</h3>
+    <p>
+      When you log a check-in, the following is sent to and stored on our
+      backend (operated by us on Replit at <code>yellow-mood-app.replit.app</code>):
+    </p>
+    <ul>
+      <li>The mood quadrant you selected</li>
+      <li>Intensity level</li>
+      <li>Emotions and body signals you tapped</li>
+      <li>Context tags you selected</li>
+      <li>Any free-text notes you wrote</li>
+      <li>The timestamp of the check-in</li>
+    </ul>
+    <p>
+      This data is associated with your account so we can show you your own
+      history and patterns. It is never sold, shared with advertisers, or
+      provided to third parties.
+    </p>
+
+    <h3>Apple Health data</h3>
+    <div class="callout">
+      <p>
+        <strong>If you choose to connect Apple Health,</strong> Yellow reads
+        the following categories <strong>on your device only</strong>: sleep
+        analysis, heart rate variability, resting heart rate, heart rate,
+        steps, active energy, exercise time, stand time, body temperature,
+        wrist temperature, respiratory rate, and menstrual flow.
+      </p>
+      <p style="margin-top: 12px;">
+        <strong>This data never leaves your device.</strong> Yellow does not
+        transmit Apple Health data to our servers, does not store it outside
+        of Apple's HealthKit on your phone, does not share it with any third
+        party, and never uses it for advertising. It is used solely to show
+        you context alongside your own check-ins.
+      </p>
+    </div>
+
+    <h3>Notification preferences</h3>
+    <p>
+      Your preferences for daily reminders and other notifications are stored
+      locally on your device only.
+    </p>
+
+    <h3>Information we do not collect</h3>
+    <ul>
+      <li>We do not use any analytics, tracking, or advertising SDKs.</li>
+      <li>We do not track you across other apps or websites.</li>
+      <li>We do not collect device identifiers for advertising.</li>
+      <li>We do not collect your location.</li>
+      <li>We do not access your contacts, photos, microphone, or camera.</li>
+    </ul>
+
+    <h2>2. Who has access to your data</h2>
+    <ul>
+      <li>
+        <strong>You</strong>, through the app.
+      </li>
+      <li>
+        <strong>Clerk</strong>, our authentication provider, which holds your
+        sign-in credentials. See
+        <a href="https://clerk.com/legal/privacy" target="_blank" rel="noopener">Clerk's privacy policy</a>.
+      </li>
+      <li>
+        <strong>Our backend</strong>, which stores your check-ins so they
+        sync to your account. The backend runs on Replit's infrastructure
+        and is operated by us.
+      </li>
+    </ul>
+    <p>
+      We do not sell your data. We do not share it with advertisers. We do
+      not share it with researchers, employers, insurers, or any other third
+      party.
+    </p>
+
+    <h2>3. Data retention and deletion</h2>
+    <p>
+      You can delete your account at any time from within the app:
+      <strong>Profile → Delete account</strong>. When you delete your
+      account:
+    </p>
+    <ul>
+      <li>All your check-ins are permanently removed from our backend.</li>
+      <li>Your Clerk authentication record is removed.</li>
+      <li>
+        Apple Health data was never stored by us, so there is nothing to
+        delete on the server side. To revoke Yellow's HealthKit access,
+        open Apple's Health app → Sharing → Apps → Yellow.
+      </li>
+    </ul>
+
+    <h2>4. Security</h2>
+    <p>
+      All traffic between the app and our backend is sent over HTTPS.
+      Authentication tokens are managed by Clerk's SDK and stored using the
+      platform's secure storage. We follow standard practices to protect
+      data in transit and at rest, but no internet-connected service can
+      guarantee absolute security.
+    </p>
+
+    <h2>5. Children</h2>
+    <p>
+      Yellow is not directed at children under 13, and we do not knowingly
+      collect personal information from children under 13. If you believe a
+      child has provided us with personal information, please contact us
+      and we will delete it.
+    </p>
+
+    <h2>6. Your rights</h2>
+    <p>
+      You can:
+    </p>
+    <ul>
+      <li>View all your check-ins inside the app.</li>
+      <li>Delete individual check-ins inside the app.</li>
+      <li>Delete your entire account and all associated data from Profile → Delete account.</li>
+      <li>Revoke HealthKit access from Apple's Health app at any time.</li>
+      <li>Email us with any questions or requests about your data.</li>
+    </ul>
+
+    <h2>7. Changes to this policy</h2>
+    <p>
+      If we make material changes to this policy, we will update the
+      effective date at the top and, where appropriate, notify you in the
+      app. Continued use of Yellow after a change indicates acceptance of
+      the updated policy.
+    </p>
+
+    <h2>8. Contact</h2>
+    <p>
+      For any questions about this policy or your data, email
+      <a href="mailto:sg@c4e.in">sg@c4e.in</a>.
+    </p>
+
+    <footer>
+      Yellow — a quiet place to notice how you feel.
+    </footer>
+  </div>
+</body>
+</html>
